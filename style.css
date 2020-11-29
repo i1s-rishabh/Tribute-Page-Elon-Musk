@@ -77,13 +77,26 @@ img {
   }
 }
 
+/*---------Media Queries---------*/
+@media (max-width: 375px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+
 @media (max-width: 600px) {
+  html {
+    display: table;
+    margin: 30px;
+    font-size: 14px;
+  }
+
   body {
-    width: 80%;
-    height: auto;
+    display: table-cell;
+    vertical-align: middle;
   }
 
   h1 {
-    font-size: 35px;
+    font-size: 40px;
   }
 }
