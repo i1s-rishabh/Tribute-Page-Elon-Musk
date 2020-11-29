@@ -61,8 +61,29 @@ img {
   border-radius: 10%;
 }
 
+/*---------Media Queries---------*/
 @media (max-width: 375px) {
   html {
     font-size: 14px;
+  }
+
+  body {
+    width: 90%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    width: 80%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 35px;
   }
 }
