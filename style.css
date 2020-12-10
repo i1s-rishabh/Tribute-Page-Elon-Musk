@@ -44,7 +44,8 @@ figcaption {
 
 ul li {
   list-style-type: none;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
+  line-height: 130%;
 }
 
 a {
@@ -59,22 +60,12 @@ a {
 
 img {
   border-radius: 10%;
+  width: 100%;
+  height: auto;
 }
 
-/*---------Media Queries---------*/
-@media (max-width: 375px) {
-  html {
-    font-size: 14px;
-  }
-
-  body {
-    width: 90%;
-    height: auto;
-  }
-
-  h1 {
-    font-size: 30px;
-  }
+.image {
+  margin-bottom: 0px;
 }
 
 /*---------Media Queries---------*/
