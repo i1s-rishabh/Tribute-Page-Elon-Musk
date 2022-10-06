@@ -4,3 +4,7 @@ function randomDate(start, end, startHour, endHour) {
   date.setHours(hour);
   return date;
 }
+
+const notification = () => {
+  alert("This is elon musk's life timeline");
+}
